@@ -81,6 +81,7 @@ class MemeEditorViewController: UIViewController, UINavigationControllerDelegate
     func prepareTextField(textField: UITextField, defaultText: String) {
         textField.defaultTextAttributes = memeTextAttributes
         textField.text = defaultText
+        textField.textAlignment = .center
         
     }
     func save() {
